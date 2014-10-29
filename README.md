@@ -2,6 +2,7 @@ learn-laravel-steps
 ===================
 
 Learning Laravel. First steps to use Laravel, the PHP framework for web artisans.
+
 [![Laravel site](http://laravel.com/assets/img/logo-head.png)](http://laravel.com/)
 
 
