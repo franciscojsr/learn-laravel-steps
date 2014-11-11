@@ -3,7 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Laravel PHP Framework</title>
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link href="css/bootstrap1.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 	<style>
 		@import url(//fonts.googleapis.com/css?family=Lato:700);
@@ -43,13 +48,10 @@
 	</style>
 </head>
 <body>
-    <div class="container">
-        @yield('barra')
-    </div>
 
-    <div class="container">
-        @yield('content')
-	</div>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">@include('bars/bar_page1')</nav>
+
+    <div class="container">@yield('content')</div>
 
 </body>
 </html>

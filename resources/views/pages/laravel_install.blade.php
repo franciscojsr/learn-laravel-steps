@@ -1,14 +1,6 @@
 @extends('master')
 
-@section('barra')
-
-<span><a href="/laravel_install">Install Laravel</a></span>
-<span><a href="/vagrant_vm">Virtual machine Homestead Laravel/VBox/Vagrant</a></span>
-<span><a href="/git_using">Using Git</a></span>
-@stop
-
 @section('content')
-
 Install Laravel ( <a href="http://laravel.com">www.laravel.com</a> )
 
     First it's necessary install Composer: (<a href="https://getcomposer.org/doc/00-intro.md#globally">https://getcomposer.org/doc/00-intro.md#globally</a> )
