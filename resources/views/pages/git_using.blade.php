@@ -8,8 +8,7 @@
 <div><h4>Git clone, ssh-keygen, status, ignore, add, commit, push and pull are basics commands.</h4></div>
 
 Create ssh-keygen:
-<a name="keygen"></a>
-<code><div class="term"><span style="color:white;">Generate ssh-keygen:</span>
+<a name="keygen"></a><code><div class="term"><span style="color:white;">Generate ssh-keygen:</span>
     $ ssh-keygen -t rsa -C "your-email@example.com"
     <span style="color:white;">[Press enter]
     [Type a passphrase]
@@ -26,7 +25,6 @@ Create ssh-keygen:
 <span style="color:white;">To add your ssh-key to GitHub, copy to clipboard and paste</span>
     $ pbcopy < ~/.ssh/id_rsa.pub
 </div></code>
----
 
 To get status: <code><div class="term">$ git status</div></code>
 To ignore some track file: <code><div class="term">$ echo &lt name_file_or_folder &gt .gitignore</div></code>

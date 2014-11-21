@@ -7,6 +7,7 @@
 
 First it's necessary install Composer: ( <a href="https://getcomposer.org/doc/00-intro.md#globally" target="_blank">Composer intallation site</a> )
 
+
 Globally: <code><div class="term">$ curl -sS https://getcomposer.org/installer | php</div></code>
 To run composer we write: <code><div class="term">$ php composer.phar</div></code>
 To run composer anywhere with ‘composer’: ( If error ..."not exist file or directory”. Create directory /bin and try again )

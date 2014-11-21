@@ -10,19 +10,17 @@ First you need to download and install Virtual box, Vagrant and Git.
 
 Create a SHH-KEYGEN --> <a href="/git_using#keygen" target="_blank">Git comands</a>
 
-Adding The Vagrant Box:
-			  $  vagrant box add laravel/homestead
+Adding The Vagrant Box:<code><div class="term">$  vagrant box add laravel/homestead</div></code>
 
 Clone The Homestead Repository (In direction where you keep all of ypur Laravel projects )
-			 $ git clone https://github.com/laravel/homestead.git Homestead
+<code><div class="term">$ git clone https://github.com/laravel/homestead.git Homestead</div></code>
 
-Now open Homested.yalm in folder Homestead:
-			  $ cd Homestead
+Now open Homested.yalm in folder Homestead:<code><div class="term">$ cd Homestead</div></code>
 			Look and changes if it’s necessary the keys. folders and sites…
 			Folders is where placed projects laraval/php..
 			sites are to set up the sites.
 
-Now in Homested do  $ vagrant up  to build the virtual machine.
+Now in Homested do<code><div class="term">$ vagrant up  to build the virtual machine.</div></code>
 Now open /etc/hosts file and insert the 127.0.0.1 “site-name”.app(Homestead.yalm) at the bottom.
 
 (To add more sites, add in Homestead.yalm the sites an in etc/hosts, and run:   $ vagrant provision   )
@@ -30,7 +28,7 @@ Now open /etc/hosts file and insert the 127.0.0.1 “site-name”.app(Homestead.
 Now in browser we can go and put “site-name”.app:8000
 
 Now we can go into our vm. First we create an alias for not write all the times that we want to do it:
-		 $ alias myvm="ssh vagrant@127.0.0.1 -p 2222"
+<code><div class="term">$ alias myvm="ssh vagrant@127.0.0.1 -p 2222"</div></code>
 We can access now with myvm:  $ myvm
 We acces to our folder projects, see php version and access to mysql:
 
@@ -40,8 +38,8 @@ We acces to our folder projects, see php version and access to mysql:
 	Type ‘exit' to leave the virtual machine.
 
 To power off the virtual machine:   $ vagrant halt
-To suspend de vm:  $ vagrant suspend
-To resume de vm:  $ vagrant resume
-To see status:  $ vagrant global-status
+To suspend de vm:<code><div class="term">$ vagrant suspend</div></code>
+To resume de vm:<code><div class="term">$ vagrant resume</div></code>
+To see status:<code><div class="term">$ vagrant global-status</div></code>
 </pre>
 @stop

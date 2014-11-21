@@ -1,4 +1,4 @@
-<div style="height: 30px;"></div>
+<div style="height: 10px;"></div>
 
     @include('visits.contador')
 
@@ -7,7 +7,11 @@
         <img src="images/yop2014.png" class="img-circle">
     </a>
 
-    <div><h4>Hi, I'm Francisco Salguero, and I will teach you first steps to work in Laravel.
-    <p>I'm a programmer and developer</p></h4>
-    </div>
+</div>
+
+<div>
+<h5>Hi, I'm Francisco Salguero.</br></br>
+I'm a programmer, developer, and I will show you first steps to work in Laravel.</br></br>
+You can find more about me <a href="http://franciscoj-salguero.rhcloud.com/" target="_blank">here</a>.
+</h5>
 </div>
