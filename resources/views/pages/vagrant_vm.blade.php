@@ -1,11 +1,14 @@
 @extends('master')
 
 @section('content')
-Virtual machine Homestead Laravel/VBox/Vagrant ( www.laravel.com )
+<pre>
 
-	First download and install Virtual box, Vagrant and Git.
+    <div><h1>VM Homestead Vagrant</h1><small class="lobster">Learn more about --> <a href="http://laravel.com/docs/4.2/homestead" target="_blank">Laravel homestead</a></small></div>
 
-Create a SHH-KEYGEN
+First you need to download and install Virtual box, Vagrant and Git.
+<ol><li><a href="https://www.virtualbox.org/" target="_blank">Virtual Box</a></li><li><a href="https://www.vagrantup.com/" target="_blank">Vagrant</a></li><li><a href="http://git-scm.com/" target="_blank">Git</a></li></ol>
+
+Create a SHH-KEYGEN --> <a href="/git_using#keygen" target="_blank">Git comands</a>
 
 Adding The Vagrant Box:
 			  $  vagrant box add laravel/homestead
@@ -40,4 +43,5 @@ To power off the virtual machine:   $ vagrant halt
 To suspend de vm:  $ vagrant suspend
 To resume de vm:  $ vagrant resume
 To see status:  $ vagrant global-status
+</pre>
 @stop

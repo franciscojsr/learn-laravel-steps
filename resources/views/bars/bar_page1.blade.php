@@ -30,6 +30,5 @@
             <a href="/git_using">Using Git</a>
         </li>
       </ul>
-
     </div><!-- /.navbar-collapse -->
 </div><!-- /.container-fluid -->

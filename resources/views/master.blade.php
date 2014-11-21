@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<title>Laravel PHP Framework</title>
 	<!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> -->
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
@@ -50,20 +52,21 @@
 
         <div class="container-fluid">
             <div class="row">
-              <div class="col-md-1"></div>
-              <div class="col-md-8">@yield('content')</div>
+              <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+              <div class="col-xs-12 col-sm-12 col-md-9 col-lg-8">
+                @yield('content')
+              </div>
               <!-- Optional: clear the XS cols if their content doesn't match in height -->
-              <div class="clearfix visible-xs-block"></div>
-              <div class="col-md-3">@include('pages/profile')</div>
+              <div class="col-xs-12 col-sm-12 col-md-2 col-lg-3">
+                @include('pages/profile')
+              </div>
             </div>
         </div>
 
         <footer class="panel-footer navbar2">
             <div>
-                    <a href="http://www.laravel.com"><img src="/images/logo-head-blue2.png"> Learn Laravel</a>
+                    <a href="http://www.laravel.com" target="_blank"><img src="/images/logo-head-blue2.png"> Learn Laravel</a>
             </div>
         </footer>
-
-
 </body>
 </html>
