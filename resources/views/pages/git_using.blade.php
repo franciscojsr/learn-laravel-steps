@@ -5,7 +5,7 @@
 
     <div><h1>Some Git commands</h1><small class="lobster">Learn more about --> <a href="http://git-scm.com/doc" target="_blank">git documentation</a></small></div>
 
-<div><h4>Git clone, ssh-keygen, status, ignore, add, commit, push and pull are basics commands.</h4></div>
+<div><h4>Git clone, ssh-keygen, status, add, commit, push and pull basics commands.</h4></div>
 
 Create ssh-keygen:
 <a name="keygen"></a><code><div class="term"><span style="color:white;">Generate ssh-keygen:</span>

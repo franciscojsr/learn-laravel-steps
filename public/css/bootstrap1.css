@@ -293,7 +293,15 @@ th {
   font-family: 'Glyphicons Halflings';
 
   src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+       url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+       url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+
+  font-family: 'Lobster';
+
+  src: url('../fonts/Lobster-Regular.ttf') format('truetype');
+
 }
 .glyphicon {
   position: relative;
@@ -987,32 +995,38 @@ img {
 }
 .img-circle {
   border-radius: 50%;
-
-    width: 135px;
+    width: 175px;
     height: auto;
     padding: 5px;
     line-height: 1.42857143;
     background-color: #ddd;
     border: 1px solid #fff;
+
+    max-width: 100%;
+    width: auto\9; /* ie8 */
+
 }
 
 .img-digits {
     border-radius: 15%;
 
-    width: 25px;
+    width: 20px;
     height: auto;
-    padding: 1px;
+    padding: 2px;
 
     background-color: #ddd;
     border: 1px solid #fff;
+
+
 }
 
 .digits {
-    position: relative;
     float: left;
     border-radius: 10%;
     background-color: #000000;
     border: 1px solid #fff;
+
+    max-width: 21px;
 }
 
 hr {
@@ -1483,6 +1497,7 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
 .row {
   margin-right: -15px;
   margin-left: -15px;
