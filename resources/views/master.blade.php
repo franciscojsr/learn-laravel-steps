@@ -54,7 +54,7 @@
             <div class="row">
               <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
               <div class="col-xs-12 col-sm-10 col-md-9 col-lg-9">
-                @yield('content')
+                 <pre>@yield('content')</pre>
               </div>
               <!-- Optional: clear the XS cols if their content doesn't match in height -->
               <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
@@ -63,7 +63,7 @@
             </div>
         </div>
 
-        <footer class="panel-footer navbar2">
+        <footer class="panel-footer">
             <div>
                     <a href="http://www.laravel.com" target="_blank"><img src="/images/logo-head-blue2.png"> Learn Laravel</a>
             </div>

@@ -33,42 +33,28 @@
 		}
 
 	</style>
+	<!-- <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+         <div class="col-xs-12 col-sm-10 col-md-9 col-lg-9">
+         <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"> -->
 </head>
     <body>
-
-        <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " style="background-color:black">
             <div class="row">
-              <div class="col-md-1"></div>
-              <div class="col-md-8">
-                <article>
-                    <pre>
-                    Install Laravel ( <a href="http://laravel.com">www.laravel.com</a> )
-
-                        First it's necessary install Composer: (<a href="https://getcomposer.org/doc/00-intro.md#globally">https://getcomposer.org/doc/00-intro.md#globally</a> )
-
-                            - Globally:</pre>
-                                <code><div class="term">$ curl -sS https://getcomposer.org/installer | php</div></code>
-
-
-                            - To run composer:</pre>
-                                <code><div class="term">$ php composer.phar</div></code>
-
-
-                            - To run composer anywhere with ‘composer’: </pre>
-                                <code><div class="term">$ mv composer.phar /usr/local/bin/composer</div></code>
-
-                                ( If error ..."not exist file or directory”. Create directory /bin and try again )
-
-                            - Now to run composer:
-                                <code><div class="term">$ composer</div></code>
-
-                        </pre>
-                </article>
-              </div>
-              <div class="clearfix visible-xs-block"></div>
-              <div class="col-md-3"></div>
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 " style="background-color:red">a</div>
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background-color:grey">a</div>
+                        <div class="col-xs-8 col-sm-9 col-md-7 col-lg-7 " style="background-color:blue">a</div>
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background-color:grey">a</div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 " style="background-color:green">a</div>
+            </div>
+            <div class="row">
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 " style="background-color:red">a</div>
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background-color:grey">a</div>
+                        <div class="col-xs-8 col-sm-7 col-md-7 col-lg-7 " style="background-color:blue">a</div>
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background-color:grey">a</div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 " style="background-color:green">a</div>
             </div>
         </div>
-
+      </div>
     </body>
 </html>
